@@ -1,9 +1,9 @@
-.image-container {
+.Image-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.image-container img {
+.Image-container image{
     max-width: 100%;
     height: auto;
     margin: 20px;
@@ -17,6 +17,6 @@
     width: 140px;
     height: 140px;
     margin: 20px;
-    border: 1px solid black;
+    border: 3px yellow;
 }
 
