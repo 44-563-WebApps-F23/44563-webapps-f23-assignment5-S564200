@@ -16,6 +16,26 @@
         width:400px;
         height:500px;
       }
+
+.table{
+ border: solid 3px black;
+ margin: auto;
+text-align: left;
+ border-collapse: collapse;
+border-spacing: 0;
+}
+td:hover{
+ background-color: orange;
+}
+.table th{
+background-color: orangered;
+}
+table, th, td {
+border: 1px solid;
+}
+.table td{
+background-color: lightblue;
+}
     </style>
   </head>
 <body>
@@ -53,6 +73,63 @@ will adjust their layout.
   <img src="city2.jpg" class="img-thumbnail" alt="city2 Image">
   <img src="city3.jpg" class="img-thumbnail" alt="city3 Image">
 </div>
+
+<caption>CITY,TREES AND LAKES</caption>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">S.No</th>
+      <th scope="col">Letter</th>
+      <th scope="col">City</th>
+      <th scope="col">River</th>
+      <th scope="col">Tree</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>B</td>
+      <td>Berlin</td>
+      <td>Brahmaputra River</td>
+      <td>Banyan</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>O</td>
+      <td>Oslo</td>
+      <td>Orinoco</td>
+      <td>Oak</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>D</td>
+      <td>Dallas</td>
+      <td>Danube</td>
+      <td>DouglasFir</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>A</td>
+      <td>Atlanta</td>
+      <td>Amazon</td>
+      <td>Alder</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>P</td>
+      <td>Paris</td>
+      <td>Potomac</td>
+      <td>Pine</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>A</td>
+      <td>Abu Dhabi</td>
+      <td>Atchafalaya</td>
+      <td>Araucaria</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
